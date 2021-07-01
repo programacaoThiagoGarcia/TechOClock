@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TeckOClock</string>
+    <string name="old_text">Old text</string>
+    <string name="click">Click</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="KGk-i7-Jjw" customClass="UserTableViewCell" customModule="TechOClock" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkm-tD-wSy">
+                        <rect key="frame" x="16" y="8" width="365" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="7F6-ez-DF3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydz-MJ-2PE">
+                        <rect key="frame" x="16" y="66" width="365" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="AyD-8o-b7o"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQN-m7-xhn">
+                        <rect key="frame" x="16" y="37" width="365" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Asp-G0-CYA"/>
+                            <constraint firstAttribute="height" constant="21" id="VZb-r4-zyd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ydz-MJ-2PE" secondAttribute="bottom" constant="8" id="00D-Ay-j9t"/>
+                    <constraint firstItem="Pkm-tD-wSy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="4NI-Sv-KTH"/>
+                    <constraint firstItem="CQN-m7-xhn" firstAttribute="top" secondItem="Pkm-tD-wSy" secondAttribute="bottom" constant="8" id="64P-UG-uC5"/>
+                    <constraint firstItem="Pkm-tD-wSy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="BJc-ig-MSB"/>
+                    <constraint firstAttribute="trailing" secondItem="ydz-MJ-2PE" secondAttribute="trailing" constant="16" id="OoF-dE-7Ph"/>
+                    <constraint firstItem="ydz-MJ-2PE" firstAttribute="top" secondItem="CQN-m7-xhn" secondAttribute="bottom" constant="8" id="Qby-nu-3iM"/>
+                    <constraint firstItem="CQN-m7-xhn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="b9a-QC-zzi"/>
+                    <constraint firstAttribute="trailing" secondItem="Pkm-tD-wSy" secondAttribute="trailing" constant="16" id="exl-fg-ARN"/>
+                    <constraint firstAttribute="trailing" secondItem="CQN-m7-xhn" secondAttribute="trailing" constant="16" id="lXT-yW-lfO"/>
+                    <constraint firstItem="ydz-MJ-2PE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="n2V-bo-bwC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblEmail" destination="ydz-MJ-2PE" id="xei-EJ-uzF"/>
+                <outlet property="lblName" destination="Pkm-tD-wSy" id="hDG-f6-hA3"/>
+                <outlet property="lblNif" destination="CQN-m7-xhn" id="7Sy-18-vKw"/>
+            </connections>
+            <point key="canvasLocation" x="193.47826086956522" y="159.375"/>
+        </tableViewCell>
+    </objects>
+</document>

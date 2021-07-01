@@ -1,0 +1,20 @@
+{
+  "capabilities": {
+    "android": {
+      "deviceName":"emulator-5554",
+      "platformName":"Android",
+      "appPackage":"com.example.myapplication",
+      "automationName":"UIAutomator2",
+      "appActivity":"com.example.myapplication.MainActivity",
+      "noReset":true
+    },
+    "ios": {
+      "platformName":"iOS",
+      "platformVersion":"14.5",
+      "deviceName":"iPhone 11",
+      "automationName":"XCUITest",
+      "app":"com.programacaoThiagoGarcia.TechOClock"
+    }
+  },
+  "launchOS": "android"
+}
