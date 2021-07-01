@@ -5,8 +5,10 @@
 Este exemplo de app foi desenvolvido como parte da apresentação do TechOClock promovido pela ITSector.
 A  apresentação consiste em mostrar como podemos desenvolver testes automáticos com a ferramenta [Appium](https://appium.io/), utilizando [Kotlin](https://kotlinlang.org/).  
 
-<img src="./Screenshot/001.png" width="260" /><img src="./Screenshot/002.png" width="260" />
-<img src="./Screenshot/003.png" width="260" /><img src="./Screenshot/004.png" width="260" />
+<img src="./Screenshot/001.png" width="260" />
+<img src="./Screenshot/002.png" width="260" />
+<img src="./Screenshot/003.png" width="260" />
+<img src="./Screenshot/004.png" width="260" />
 
 ## Configuração
 - Instale o [NodeJS](https://nodejs.org/en/)
