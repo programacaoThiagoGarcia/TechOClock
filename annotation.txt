@@ -2,7 +2,7 @@
 /usr/libexec/java_home -V
 
 
-export ANDROID_HOME=/Users/thiagogarcia/Library/Android/sdk
+export ANDROID_HOME=/Users/<user>/Library/Android/sdk
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH
@@ -16,7 +16,7 @@ source bash_profile
 
 ====================================================================
 
-/Users/thiagogarcia/Library/Android/sdk/emulator
+/Users/<user>/Library/Android/sdk/emulator
 
  ./emulator -list-avds  
 
@@ -27,6 +27,7 @@ source bash_profile
 
 
  https://medium.com/@benba/mobile-automationtest-java-8428a46dd8bd
+ https://medium.com/the-ministry-of-testing/adding-accessibility-identifiers-to-an-ios-app-c8e09d9c20f3
 
 
  https://appium.io/docs/en/about-appium/intro/
