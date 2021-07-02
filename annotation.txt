@@ -27,6 +27,7 @@ source bash_profile
 
 
  https://medium.com/@benba/mobile-automationtest-java-8428a46dd8bd
+
  https://medium.com/the-ministry-of-testing/adding-accessibility-identifiers-to-an-ios-app-c8e09d9c20f3
 
 
@@ -34,6 +35,12 @@ source bash_profile
 
  https://medium.com/the-ministry-of-testing/adding-accessibility-identifiers-to-an-ios-app-c8e09d9c20f3
 
+
+https://qametrik.com/como-melhorar-a-sua-estrategia-de-testes-automatizados/
+
+https://k21.global/blog/qualidade-do-software-testes-automatizados
+
+https://blog.myscrumhalf.com/en/melhorando-sua-estrategia-de-testes-automatizados/
 ====================================================================
 
 
